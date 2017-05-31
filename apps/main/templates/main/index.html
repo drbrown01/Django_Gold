@@ -2,28 +2,32 @@
 <html>
   <head>
     {% load staticfiles %}
-        <link rel="stylesheet" href="{% static 'main/css/css/bootstrap.min.css' %}">
-        <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'main/bootstrap/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'main/css/style1.css' %}">
         <meta charset="utf-8">
     <meta charset="utf-8">
     <title>Django Gold</title>
   </head>
-  <header>
+  <header class='col-md-12'>
     <h1>Django Gold</h1>
-    <nav>
-      <ul>
-        <li></li>
+    <nav class="class='navbar navbar-default navbar-fixed-top text-center'">
+      <ul class='nav navbar-nav navbar-center'>
+        <li><a href="#">Contact </a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Home</a></li>
       </ul>
     </nav>
   </header>
   <body>
-<h1>Django Gold</h1>
+<h2>(Show treasure here)</h2>
   </body>
-  <footer>
-    <ul>
-      <li><a href="#">Contact </a></li>
-      <li><a href="#"></a>About</li>
-      <li><a href="#"></a>Home</li>
-    </ul>
+  <footer class="'navbar navbar-default navbar-static-top text-center'">
+    <div class="col-md-12">
+      <ul class='nav navbar-nav navbar-center'>
+        <li><a href="#">Contact </a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </div>
   </footer>
 </html>
